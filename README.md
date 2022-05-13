@@ -1,3 +1,3 @@
 ## JavaScript Projects
 
-Vanilla JavaScirpt Projects.
+Vanilla JavaScript Projects.
