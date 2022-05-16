@@ -42,6 +42,10 @@ html {
 	text-align: center;
 }
 
+.slide:not(:first-child) {
+    display: none;
+}
+
 .slide-img {
 	width: 100%;
 	margin: 0 auto;
@@ -180,7 +184,7 @@ html {
 	.slide-img {
 		padding: 10px;
 	}
-    
+
 	.buttons {
 		top: 180px;
 	}
