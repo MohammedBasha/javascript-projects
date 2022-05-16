@@ -16,7 +16,7 @@ async function getJoke() { // using async to asynchronize the fetching
 */
 
 function getJoke() { // using Promise chains to fetch the jokes
-    const jokeData = fetch('https://icanhazdadjoke.com/', { // the joke api
+    fetch('https://icanhazdadjoke.com/', { // the joke api
         headers: {
             'Accept': 'application/json' // accepting json format
         }
